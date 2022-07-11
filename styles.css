@@ -19,11 +19,28 @@ hr{
   width: 5%;
 }
 
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
 body{
   color: white;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
+}
+
+.skill-row{
+  padding: 20px 0 20px;
+}
+
+.pfp{
+  height: 300px;
+  border-radius: 50%;
+  border: 3px solid #fcc52e;
 }
 
 .mountain-div{
@@ -38,9 +55,14 @@ body{
   height: 100%;
 }
 
+.skill-image{
+  height: 100px;
+}
+
 .text-container{
   position: absolute;
   padding-top: 3%;
+  padding-bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
   text-shadow:
@@ -48,10 +70,6 @@ body{
         0 0.07em black,
         -0.07em 0 black,
         0 -0.07em black;
-}
-
-.middle-container{
-  padding-top: 100px;
 }
 
 .links{
